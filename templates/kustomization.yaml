@@ -6,8 +6,6 @@ metadata:
 configMapGenerator:
 - name: user-mgmt
   namespace: keycloak
-  files:
-  - loic_demay.json
-  - nathan_malo.json
+  files: []
 generatorOptions:
   disableNameSuffixHash: true
